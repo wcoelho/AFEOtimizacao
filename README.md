@@ -12,8 +12,9 @@ Walter Coelho
 
 ## Melhorias aplicadas  
 - Utilizados links com https.
-- Utilizada URL real/existente no link relativo ao rel="canonical".
-- Movidos style e script para parte inferior do html.
+- Utilizada URL real/existente no link relativo ao rel="canonical".  
+- Movidos blocos de script para o fim do arquivo index.html.  
+- Movidos blocos de style e css para o início do arquivo index.html.  
 - Removidos css não utilizados.
 - Removidos Ids repetidos.
 - Utilizado aria-label nos links \<a\>.
