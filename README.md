@@ -11,6 +11,7 @@ Dalmo Melo Pereira da Rocha
 Walter Coelho
 
 ## Melhorias aplicadas  
+**Primeira Etapa**  
 - Utilizados links com https.
 - Utilizada URL real/existente no link relativo ao rel="canonical".  
 - Movidos blocos de script para o fim do arquivo index.html.  
@@ -23,13 +24,19 @@ Walter Coelho
 - Adicionado novo arquivo jQuery minified - 3.4.1.
 - Adicionadas imagens perdidas.
 - Adicionado sinalizador passive ao addEventListener.
-- Utilizado https no Live Server.
+- Utilizado https no Live Server.  
+
+**Segunda Etapa**  
+- Arquivos js e css restantes minificados.  
+- Imagens jpg e png substituídas pelo formato moderno jp2.  
 
 ## Estratégias
 
 1) Estratégias de compactação  
 - Compactação de arquivos HTML, JavaScript e CSS via minificação  
-=> Feito Parcialmente, ainda há arquivos a compactar
+=> Feito  
+- Compactação de imagens  
+=> Feito em algumas imagens  
 
 2) Estratégias avançadas
 
