@@ -1,9 +1,20 @@
-# Arquitetura de Fron End - Otimizacao
+# Arquitetura de Software Distribuído - Oferta 11
+# Arquitetura de Front-End
+Pontifícia Universidade Católica de Minas Gerais  
+
+
+## Laboratório 2 - Otimização de sites
+
+## Alunos
+Bruno Augusto  
+Dalmo Melo Pereira da Rocha  
+Walter Coelho
 
 ## Melhorias aplicadas  
 - Utilizados links com https.
-- Utilizada URL real/existente no link relativo ao rel="canonical".
-- Movidos style e script para parte inferior do html.
+- Utilizada URL real/existente no link relativo ao rel="canonical".  
+- Movidos blocos de script para o fim do arquivo index.html.  
+- Movidos blocos de style e css para o início do arquivo index.html.  
 - Removidos css não utilizados.
 - Removidos Ids repetidos.
 - Utilizado aria-label nos links \<a\>.
@@ -16,17 +27,14 @@
 
 ## Estratégias
 
-1)Estratégias de compactação  
-a.Compactação de arquivos HTML, JavaScript e CSS via minificação  
+1) Estratégias de compactação  
+- Compactação de arquivos HTML, JavaScript e CSS via minificação  
 => Feito Parcialmente, ainda há arquivos a compactar
 
+2) Estratégias avançadas
 
-3)Estratégias avançadas
-
-b.Eliminação de regras CSS não utilizadas  
+- Eliminação de regras CSS não utilizadas  
 => Regras Eliminadas
 
-c.Aplicação do protocolo HTTP2 no servidor ao invés do HTTP1/1   
+- Aplicação do protocolo HTTP2 no servidor ao invés do HTTP1/1   
 => Feita a configuração para o LiveServer do VSCode, mas o audit não funcionou.
-
-
